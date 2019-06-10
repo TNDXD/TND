@@ -291,7 +291,7 @@ client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© TND Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
+      .setFooter('© Arabic Sword Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
       .setFooter('اوامر الادمنيه')
 	  .addField('-bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
@@ -329,8 +329,8 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© TND Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
-      .addField('TND', `عذراً ان البوت خاص لكلان ذاليجيند`)
+      .setFooter('© Arabic Sword Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
+      .addField('© Arabic Sword Bot:heart: جميع الحقوق محفوظة 2019 لــبوت', `عذراً ان البوت خاص لسيرفر السيف العربي ♥♥`)
   message.author.send({embed});
 
  }
@@ -373,7 +373,7 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© TND Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')  
+      .setFooter('© Arabic Sword Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')  
   message.author.send({embed});
 
  }
@@ -453,7 +453,7 @@ client.on('message', message => {
  
   .setColor("#FF0000")
   .addField('``سرعة أتصال الــبوت`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
-                 .setFooter(` TND Bot
+                 .setFooter(` Arabic Sword Bot
  .`, 'https://b.top4top.net/p_6021qh431.jpg')
 
   message.channel.sendEmbed(embed);
@@ -648,7 +648,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`سيرفر كلان ذاليجيند`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`سيرفر السيف العربي للحياة الواقعية`,"http://twitch.tv/y04zgamer")
    client.user.setStatus("dnd")
 });
 
@@ -841,7 +841,7 @@ if (command == "غرد") {
     .setColor('RANDOM')
     .setAuthor(msg.author.username, msg.author.avatarURL)
     .setDescription(args.join(" "))
-    .setFooter('© . :TND || Copyright')
+    .setFooter('© . :Arabic Sword || Copyright')
     msg.channel.sendEmbed(embed);
     msg.delete();
   }
@@ -935,7 +935,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© TND Bot ™."
+          text: "© Arabic Sword Bot ™."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
