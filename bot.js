@@ -139,16 +139,6 @@ const x5bz4 = [
 
 
 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('discord.gg')){
-		if(!message.channel.guild) return;
-        message.delete()
-    return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
-    }
-});
-
-
 
 
 
