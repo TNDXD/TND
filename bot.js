@@ -384,11 +384,11 @@ client.on("message", message => {
  if (message.content === "خالد") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('@Thanos#9999  عيون خالد')  
-  guild.defaultChannel.sendMessage("", {embed: {
+      .setFooter('عيون خالد')  
+  message.channel.sendembed(embed);
+
  }
 });
-
 
 
 
