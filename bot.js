@@ -385,7 +385,7 @@ client.on("message", message => {
   const message = new Discord.RichEmbed()    
       .setColor("RANDOM")  
       .setFooter('عيون خالد')  
-  message.channel.sendEmbed(message);
+  message.channel.sendEmbed( );
 	 
  }
 });
