@@ -385,7 +385,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('@Thanos#9999  عيون خالد')  
-  message.channel.sendEmbed(embed4);
+    message.channel.sendMessage
 
  }
 });
