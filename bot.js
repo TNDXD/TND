@@ -357,8 +357,6 @@ client.on("message", message => {
 
 
 
-
-
 client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
@@ -375,6 +373,22 @@ client.on("message", message => {
 
 
 
+
+
+
+
+
+
+
+client.on("message", message => {
+ if (message.content === "-خالد") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('عيون خالد')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
 
 
 
