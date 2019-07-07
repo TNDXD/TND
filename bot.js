@@ -384,8 +384,7 @@ client.on("message", message => {
  if (message.content === "خالد") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")  
-      .setFooter('عيون خالد')  
-  message.channel.sendEmbed( );
+  message.channel.sendEmbed( عيون خالد );
 	 
  }
 });
