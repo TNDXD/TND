@@ -385,7 +385,7 @@ client.on("message", message => {
  message.guild.members.forEach( member => {
       .setColor("RANDOM")  
       .setFooter('عيون خالد')  
-member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.content.substr(3));
+ message.guild.members.forEach( member => {
 	 
  }
 });
