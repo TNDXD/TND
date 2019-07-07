@@ -505,6 +505,24 @@ client.on("message", message => {
 
 
 
+client.on("message", message => {
+ if (message.content === "شرشبيل") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('بقالة الملتقى')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
 
 
 
