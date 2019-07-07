@@ -505,6 +505,27 @@ client.on("message", message => {
 
 
 
+
+client.on("message", message => {
+ if (message.content === "يوسف") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('جالس على البحر')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
 client.on("message", message => {
  if (message.content === "شرشبيل") {
   const embed = new Discord.RichEmbed()
