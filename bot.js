@@ -404,6 +404,63 @@ client.on("message", message => {
 
 
 
+client.on("message", message => {
+ if (message.content === "العنزي") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('تدلل')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client.on("message", message => {
+ if (message.content === "العجمي") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('الرجاء الاتصال في وقت لاحق')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const TOKEN = "";
 
 function commandIs(str, msg){
