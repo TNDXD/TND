@@ -382,9 +382,10 @@ client.on("message", message => {
 
 client.on("message", message => {
  if (message.content === "خالد") {
-  const embed = new Discord.RichEmbed()
+ message.guild.members.forEach( member => {
       .setColor("RANDOM")  
-  message.channel.sendEmbed( عيون خالد );
+      .setFooter('عيون خالد')  
+member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.content.substr(3));
 	 
  }
 });
