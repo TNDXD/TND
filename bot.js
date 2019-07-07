@@ -386,7 +386,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setFooter('عيون خالد')  
  message.guild.members.forEach( member => {
-         if (!message.member.hasPermission("MEMBER"))  return;
+         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.content.substr(3));
  }
 });
