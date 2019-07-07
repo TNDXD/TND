@@ -129,7 +129,7 @@ const x5bz4 = [
 
 
 
-
+	
 
 
 
@@ -384,7 +384,8 @@ client.on("message", message => {
  if (message.content === "خالد") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")  
-return msg.channel.sendMessage("عيون خالد")
+      .setFooter('عيون خالد')  
+  message.channel.sendEmbed( );
 	 
  }
 });
