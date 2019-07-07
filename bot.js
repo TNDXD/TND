@@ -380,12 +380,65 @@ client.on("message", message => {
 
 
 
+
+client.on("message", message => {
+ if (message.content === "نواف") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('كريستال')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client.on("message", message => {
+ if (message.content === "محمد") {
+  const embed = new Discord.RichEmbed()
+      .setColor("RANDOM")
+      .setFooter('سم طال عمرك')  
+  message.channel.sendEmbed(embed);
+
+ }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 client.on("message", message => {
  if (message.content === "خالد") {
   const embed = new Discord.RichEmbed()    
       .setColor("RANDOM")  
       .setFooter('عيون خالد')  
-  message.channel.sendMessage( );
+  message.channel.sendEmbed(embed);
 	 
  }
 });
