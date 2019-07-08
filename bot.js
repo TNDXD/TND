@@ -666,7 +666,6 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === "-roles") {
-		if(!message.channel.guild) return;
         var roles = message.guild.roles.map(roles => `${roles.name}, `).join(' ')
         const embed = new Discord.RichEmbed()
         .setColor('RANDOM')
